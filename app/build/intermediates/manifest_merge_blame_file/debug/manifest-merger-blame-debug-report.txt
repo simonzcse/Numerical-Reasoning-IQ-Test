@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:6:5-66
+12-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:6:22-63
+13
+14    <application
+14-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:8:5-28:19
+15        android:allowBackup="true"
+15-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\simon\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:14:9-40
+25        android:usesCleartextTraffic="true" >
+25-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:15:9-44
+26        <activity android:name="com.example.project.QuestionsLogActivity" />
+26-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:16:9-67
+26-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:16:19-55
+27        <activity android:name="com.example.project.BarChatActivity" />
+27-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:17:9-53
+27-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:17:19-50
+28        <activity android:name="com.example.project.TestLogActivity" />
+28-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:18:9-53
+28-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:18:19-50
+29        <activity android:name="com.example.project.AboutActivity" />
+29-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:19:9-51
+29-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:19:19-48
+30        <activity android:name="com.example.project.IOTestActivity" />
+30-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:20:9-52
+30-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:20:19-49
+31        <activity android:name="com.example.project.MainActivity" >
+31-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:21:9-27:20
+31-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:21:19-47
+32            <intent-filter>
+32-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:23:17-69
+33-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:25:17-77
+35-->E:\Android Project Alpha\Project\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

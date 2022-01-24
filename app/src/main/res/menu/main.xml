@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menuAbout"
+        android:title="About" />
+    <item android:id="@+id/menuTest_Log"
+    android:title="Test Log"  />
+    <item android:id="@+id/memuquestion_Log"
+        android:title="Question Log"  />
+    <item android:id="@+id/memuBarChat"
+        android:title="Bar Chat"  />
+    <item android:id="@+id/menuExit"
+        android:title="Exit"  />
+</menu>
